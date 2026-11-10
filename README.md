@@ -28,7 +28,6 @@ AgentBench is a local web-based platform for benchmarking and evaluating **AI ag
 - [Limitations and Security Notes](#limitations-and-security-notes)
 - [Future Improvements](#future-improvements)
 - [Team](#team)
-- [License](#license)
 
 ---
 
