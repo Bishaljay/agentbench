@@ -418,8 +418,6 @@ AgentBench is an academic prototype intended for local demonstration and develop
 - Database migrations and several advanced management, versioning, filtering, and reporting capabilities remain incomplete.
 - The current evaluation method is strict exact matching and does not provide general semantic evaluation of agent behaviour.
 
-For a detailed scope review, see [`DEVELOPMENT_STATUS.md`](DEVELOPMENT_STATUS.md), [`PROJECT_AUDIT.md`](PROJECT_AUDIT.md), and [`TASK_CHECKLIST.md`](TASK_CHECKLIST.md).
-
 ---
 
 ## Future Improvements
@@ -446,9 +444,3 @@ Potential next steps for the project include:
 | Suzanne | Team Member |
 
 ---
-
-## License
-
-No license has currently been specified. Unless a license is added to this repository, the project remains protected by the default copyright rules and others do not automatically receive permission to reuse, modify, or distribute it.
-
-If you want to make the project open source, choose and add an appropriate license file (for example, MIT) after confirming that the project dependencies and all included assets permit it.
