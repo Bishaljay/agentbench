@@ -25,7 +25,6 @@ AgentBench is a local web-based platform for benchmarking and evaluating **AI ag
 - [API Documentation](#api-documentation)
 - [Testing](#testing)
 - [Configuration](#configuration)
-- [Limitations and Security Notes](#limitations-and-security-notes)
 - [Future Improvements](#future-improvements)
 - [Team](#team)
 
@@ -399,23 +398,6 @@ Common settings include:
 | `MAX_TASK_TIMEOUT` | Maximum configured task timeout | `60.0` seconds |
 
 Use a unique secret key for any non-local deployment. Never commit `.env`, credentials, API keys, tokens, or private database contents.
-
----
-
-## Limitations and Security Notes
-
-AgentBench is an academic prototype intended for local demonstration and development.
-
-- The built-in agents are deterministic scripts, not LLM-powered or autonomous agents.
-- The runtime uses an allowlist of built-in agent behaviours; it is not a general-purpose secure agent plugin system.
-- **Subprocess execution is not a security sandbox.** A child process can access the filesystem and network with the permissions of the current user.
-- Do not execute untrusted code or expose the service to the public internet.
-- Do not store secrets in task inputs or environment variables used by agent processes.
-- Process-tree termination and operating-system resource isolation are not fully implemented.
-- Worker crash recovery and stale-running-run reclamation are not implemented; a worker crash may leave a run marked as running.
-- Authentication, session lifecycle, authorization roles, and administrative controls are not production-grade.
-- Database migrations and several advanced management, versioning, filtering, and reporting capabilities remain incomplete.
-- The current evaluation method is strict exact matching and does not provide general semantic evaluation of agent behaviour.
 
 ---
 
