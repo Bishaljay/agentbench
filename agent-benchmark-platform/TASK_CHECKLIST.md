@@ -1,0 +1,16 @@
+# Task checklist
+- [x] Inspect environment
+- [x] Persistent SQLite-backed prototype API
+- [x] Local login and registration
+- [x] Trusted deterministic agents and separate worker
+- [x] Task-level results, timeout, basic cancellation and metrics
+- [x] API-connected frontend and report downloads
+- [x] Backend integration test and frontend build run
+- [ ] Alembic migrations and complete relational design
+- [ ] Production security, RBAC, administration and audit
+- [ ] SDK and execution backend abstraction
+- [ ] Full CRUD/versioning and complete task catalog
+- [ ] OS resource limits and worker crash recovery
+- [ ] Complete analytics, reports and filtering
+- [ ] Frontend tests, end-to-end browser tests and restart verification
+- [ ] Full acceptance criteria
